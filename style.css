@@ -1,0 +1,125 @@
+.body{
+    @media screen and (max-width:600px){
+        width: 100%;
+    }
+    align-content:center;
+    margin: 20%;
+}
+#p1{
+    border: solid 10px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    }
+    #container{
+        background-image: url(images/img01.jpg);
+        background-repeat: no-repeat;
+        background-position: initial;
+        background-size: cover;
+        padding: 20%;
+
+
+    }
+    .container1{
+        display: grid;
+        grid-template-columns: 50%25%25%;
+    }
+    #container2{
+        background-image: url(images/img02.webp);
+        background-repeat: no-repeat;
+        background-position: initial;
+        background-size: cover;
+        padding: 20%;
+        display: grid;
+        grid-template-columns: 30%70%;
+    }
+    .container3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #container4{
+        background-image: url('images/img05.jpg');
+        background-repeat: no-repeat;
+        background-position: initial;
+        background-size: cover;
+        padding: 20%;
+        color: white;
+        font-size: 24px;
+    }
+    #container5{
+    background-image: url('images/image6.avif');
+    background-repeat: no-repeat;
+        background-position: initial;
+        background-size: cover;
+        padding: 20%;
+        color: white;
+        font-size: 24px;
+    }
+    #container6{
+        background-image: url('images/img07.jpg');
+        background-repeat: no-repeat;
+        background-position: initial;
+        background-size: cover;
+        padding: 20%;
+        color: white;
+        font-size: 24px;
+    } 
+    #container7{
+        color: white;
+        background-color: orange;
+        height: 100px;
+        text-align: center;
+    }
+    #container8{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        background-color: black;
+        color: white;
+    }
+    #con1{
+        background-color: orange;
+        color: white;
+    }
+    #con2{
+        background-color: steelblue;
+        color: white;
+    }
+    #storage{
+background-color: steelblue;
+    }
+    #container9{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    #container10{
+        display: flex;
+        width: 20%;
+    }
+    .p2,h6,h5{
+        color: orange;
+        text-align: center;
+    }
+    #storage,.div3{
+        width: 50%;
+    }
+    #body{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .p3{
+        font-size: 38px;
+        text-align: center;
+    }
+    button{
+        background-color: orange;
+        color: white;
+    }
+    #but{
+        background-color: black;
+    }
+    #p4{
+        text-align: center;
+    }
+    #div1{
+        margin-left: 20%;
+    }
